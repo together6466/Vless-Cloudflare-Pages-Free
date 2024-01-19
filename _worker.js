@@ -94,7 +94,7 @@ export default {
 						});
 					}
 					default:
-						url.hostname = 'www.zula.ir';
+						url.hostname = 'www.aparat.com';
 						url.protocol = 'https:';
 						request = new Request(url, request);
 						return await fetch(request);
